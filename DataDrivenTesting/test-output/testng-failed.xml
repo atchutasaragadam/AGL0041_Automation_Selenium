@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AGL_Suite]">
+	<parameter name="browser" value="Firefox" />
+	<test name="FirefoxTest(failed)">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="testCases.EstimateSizeCost_TC">
+				<methods>
+					<include name="browserExecute" />
+					<include name="verifyHeaders" invocation-numbers="0" />
+				</methods>
+			</class> <!-- testCases.EstimateSizeCost_TC -->
+		</classes>
+	</test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [AGL_Suite] -->

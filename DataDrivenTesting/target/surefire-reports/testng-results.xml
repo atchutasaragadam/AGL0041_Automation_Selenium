@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AGL_Suite" duration-ms="1130869" started-at="2016-08-01T02:09:12Z" finished-at="2016-08-01T02:28:03Z">
+    <groups>
+    </groups>
+    <test name="mac os EI CapitanFirefoxTest" duration-ms="431809" started-at="2016-08-01T02:09:12Z" finished-at="2016-08-01T02:16:24Z">
+      <class name="testCases.EstimateSizeCost_TC">
+        <test-method status="PASS" signature="browserExecute(java.lang.String)[pri:0, instance:testCases.EstimateSizeCost_TC@62ee68d8]" name="browserExecute" is-config="true" duration-ms="9484" started-at="2016-08-01T12:09:12Z" finished-at="2016-08-01T12:09:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac os EI Capitan-firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserExecute -->
+        <test-method status="PASS" signature="verifyHeaders(java.lang.reflect.Method)[pri:0, instance:testCases.EstimateSizeCost_TC@62ee68d8]" name="verifyHeaders" duration-ms="412207" started-at="2016-08-01T12:09:22Z" description="Verify Headers" finished-at="2016-08-01T12:16:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaders -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:testCases.EstimateSizeCost_TC@62ee68d8]" name="quitBrowser" is-config="true" duration-ms="10111" started-at="2016-08-01T12:16:14Z" finished-at="2016-08-01T12:16:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testCases.EstimateSizeCost_TC -->
+    </test> <!-- mac os EI CapitanFirefoxTest -->
+    <test name="mac os EI Capitan ChromeTest" duration-ms="128196" started-at="2016-08-01T02:16:24Z" finished-at="2016-08-01T02:18:32Z">
+      <class name="testCases.EstimateSizeCost_TC">
+        <test-method status="PASS" signature="browserExecute(java.lang.String)[pri:0, instance:testCases.EstimateSizeCost_TC@39aeed2f]" name="browserExecute" is-config="true" duration-ms="7415" started-at="2016-08-01T12:16:24Z" finished-at="2016-08-01T12:16:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac os EI Capitan-chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserExecute -->
+        <test-method status="PASS" signature="verifyHeaders(java.lang.reflect.Method)[pri:0, instance:testCases.EstimateSizeCost_TC@39aeed2f]" name="verifyHeaders" duration-ms="110703" started-at="2016-08-01T12:16:31Z" description="Verify Headers" finished-at="2016-08-01T12:18:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaders -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:testCases.EstimateSizeCost_TC@39aeed2f]" name="quitBrowser" is-config="true" duration-ms="10077" started-at="2016-08-01T12:18:22Z" finished-at="2016-08-01T12:18:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testCases.EstimateSizeCost_TC -->
+    </test> <!-- mac os EI Capitan ChromeTest -->
+    <test name="mac os EI Capitan SafariTest" duration-ms="124301" started-at="2016-08-01T02:18:32Z" finished-at="2016-08-01T02:20:36Z">
+      <class name="testCases.EstimateSizeCost_TC">
+        <test-method status="PASS" signature="browserExecute(java.lang.String)[pri:0, instance:testCases.EstimateSizeCost_TC@cc285f4]" name="browserExecute" is-config="true" duration-ms="6473" started-at="2016-08-01T12:18:32Z" finished-at="2016-08-01T12:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac os EI Capitan-safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserExecute -->
+        <test-method status="PASS" signature="verifyHeaders(java.lang.reflect.Method)[pri:0, instance:testCases.EstimateSizeCost_TC@cc285f4]" name="verifyHeaders" duration-ms="107754" started-at="2016-08-01T12:18:39Z" description="Verify Headers" finished-at="2016-08-01T12:20:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaders -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:testCases.EstimateSizeCost_TC@cc285f4]" name="quitBrowser" is-config="true" duration-ms="10073" started-at="2016-08-01T12:20:26Z" finished-at="2016-08-01T12:20:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testCases.EstimateSizeCost_TC -->
+    </test> <!-- mac os EI Capitan SafariTest -->
+    <test name="Windows 10 firefox" duration-ms="139401" started-at="2016-08-01T02:20:36Z" finished-at="2016-08-01T02:22:56Z">
+      <class name="testCases.EstimateSizeCost_TC">
+        <test-method status="PASS" signature="browserExecute(java.lang.String)[pri:0, instance:testCases.EstimateSizeCost_TC@2b98378d]" name="browserExecute" is-config="true" duration-ms="22135" started-at="2016-08-01T12:20:36Z" finished-at="2016-08-01T12:20:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[win10-firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserExecute -->
+        <test-method status="PASS" signature="verifyHeaders(java.lang.reflect.Method)[pri:0, instance:testCases.EstimateSizeCost_TC@2b98378d]" name="verifyHeaders" duration-ms="101932" started-at="2016-08-01T12:20:59Z" description="Verify Headers" finished-at="2016-08-01T12:22:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaders -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:testCases.EstimateSizeCost_TC@2b98378d]" name="quitBrowser" is-config="true" duration-ms="15334" started-at="2016-08-01T12:22:40Z" finished-at="2016-08-01T12:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testCases.EstimateSizeCost_TC -->
+    </test> <!-- Windows 10 firefox -->
+    <test name="Windows 10 ChromeTest" duration-ms="155914" started-at="2016-08-01T02:22:56Z" finished-at="2016-08-01T02:25:32Z">
+      <class name="testCases.EstimateSizeCost_TC">
+        <test-method status="PASS" signature="browserExecute(java.lang.String)[pri:0, instance:testCases.EstimateSizeCost_TC@14acaea5]" name="browserExecute" is-config="true" duration-ms="35594" started-at="2016-08-01T12:22:56Z" finished-at="2016-08-01T12:23:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[win10-chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserExecute -->
+        <test-method status="PASS" signature="verifyHeaders(java.lang.reflect.Method)[pri:0, instance:testCases.EstimateSizeCost_TC@14acaea5]" name="verifyHeaders" duration-ms="101578" started-at="2016-08-01T12:23:31Z" description="Verify Headers" finished-at="2016-08-01T12:25:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaders -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:testCases.EstimateSizeCost_TC@14acaea5]" name="quitBrowser" is-config="true" duration-ms="18741" started-at="2016-08-01T12:25:13Z" finished-at="2016-08-01T12:25:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testCases.EstimateSizeCost_TC -->
+    </test> <!-- Windows 10 ChromeTest -->
+    <test name="Windows 10 IE Test" duration-ms="151227" started-at="2016-08-01T02:25:32Z" finished-at="2016-08-01T02:28:03Z">
+      <class name="testCases.EstimateSizeCost_TC">
+        <test-method status="PASS" signature="browserExecute(java.lang.String)[pri:0, instance:testCases.EstimateSizeCost_TC@523884b2]" name="browserExecute" is-config="true" duration-ms="34706" started-at="2016-08-01T12:25:32Z" finished-at="2016-08-01T12:26:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[win10-ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserExecute -->
+        <test-method status="PASS" signature="verifyHeaders(java.lang.reflect.Method)[pri:0, instance:testCases.EstimateSizeCost_TC@523884b2]" name="verifyHeaders" duration-ms="101470" started-at="2016-08-01T12:26:06Z" description="Verify Headers" finished-at="2016-08-01T12:27:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaders -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:testCases.EstimateSizeCost_TC@523884b2]" name="quitBrowser" is-config="true" duration-ms="15051" started-at="2016-08-01T12:27:48Z" finished-at="2016-08-01T12:28:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testCases.EstimateSizeCost_TC -->
+    </test> <!-- Windows 10 IE Test -->
+  </suite> <!-- AGL_Suite -->
+</testng-results>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,131.115" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="AGL0041/Automation:CheProximityFramework"/>
+    <property name="PWD" value="/Volumes/Users/cheaus/Documents/Automation/Jenkins_2.11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/cheaus/.jenkins"/>
+    <property name="PATH" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home//bin:/usr/local/maven/apache-maven-3.3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Volumes/Users/cheaus/Documents/Automation/Browsers/ChromeDriver/chromedriver"/>
+    <property name="HUDSON_SERVER_COOKIE" value="53da397a83702d82"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="TERM_SESSION_ID" value="EC31E698-7D11-41C9-83DF-782DFF05F936"/>
+    <property name="user.country.format" value="AU"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="user.name" value="cheaus"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="Automation:CheProximityFramework"/>
+    <property name="M2" value="/usr/local/maven/apache-maven-3.3.9/bin"/>
+    <property name="BUILD_DISPLAY_NAME" value="#23"/>
+    <property name="TMPDIR" value="/var/folders/wv/s493_yzx467ds83mrzlmcx61lg4j4d/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="Australia/Melbourne"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|ccla.com.au|*.ccla.com.au|albert.apple.com|*.albert.apple.com|office365.com|*.office365.com|office.com|*.office.com"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="23"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.11.5"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="JAVA_MAIN_CLASS_3743" value="Main"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="cheaus"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|ccla.com.au|*.ccla.com.au|albert.apple.com|*.albert.apple.com|office365.com|*.office365.com|office.com|*.office.com"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|ccla.com.au|*.ccla.com.au|albert.apple.com|*.albert.apple.com|office365.com|*.office365.com|office.com|*.office.com"/>
+    <property name="HOME" value="/Users/cheaus"/>
+    <property name="user.home" value="/Users/cheaus"/>
+    <property name="BUILD_TAG" value="jenkins-AGL0041-Automation:CheProximityFramework-23"/>
+    <property name="JENKINS_SERVER_COOKIE" value="53da397a83702d82"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/Users/cheaus/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="hudson.build.number" value="23"/>
+    <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.2cR2ft0w6D/Render"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/usr/local/maven/apache-maven-3.3.9"/>
+    <property name="java.class.path" value="/Users/cheaus/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven32-agent-1.7.jar:/usr/local/maven/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar:/usr/local/maven/apache-maven-3.3.9/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main /usr/local/maven/apache-maven-3.3.9/ /Volumes/Users/cheaus/.jenkins/war/WEB-INF/lib/remoting-2.59.jar /Users/cheaus/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven32-interceptor-1.7.jar /Users/cheaus/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.7.jar 55033"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home//bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/usr/local/maven/apache-maven-3.3.9/"/>
+    <property name="java.io.tmpdir" value="/var/folders/wv/s493_yzx467ds83mrzlmcx61lg4j4d/T/"/>
+    <property name="HUDSON_HOME" value="/Users/cheaus/.jenkins"/>
+    <property name="PATH+MAVEN" value="/usr/local/maven/apache-maven-3.3.9//bin"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="OLDPWD" value="/Users/cheaus"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/AGL0041/Automation$CheProximityFramework/23/"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.mgbcbZiYFR/Listeners"/>
+    <property name="MAVEN_OPTS" value="-Xmx1024m"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.ext.dirs" value="/Users/cheaus/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x66F2448D:0x0:0x0"/>
+    <property name="user.dir" value="/Volumes/Users/cheaus/Documents/Automation/Jenkins_2.11"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/AGL0041/Automation$CheProximityFramework/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="/usr/local/maven/apache-maven-3.3.9/"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="23"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="TERM_PROGRAM_VERSION" value="361.1"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_AU.UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/cheaus/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven32-interceptor-1.7.jar"/>
+    <property name="WORKSPACE" value="/Volumes/Users/cheaus/Documents/workspace/DataDrivenTesting/DataDrivenTesting"/>
+    <property name="maven3.interceptor.common" value="/Users/cheaus/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.7.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="cheaus"/>
+  </properties>
+  <testcase name="verifyHeaders" classname="testCases.EstimateSizeCost_TC" time="412.208"/>
+  <testcase name="verifyHeaders" classname="testCases.EstimateSizeCost_TC" time="110.704"/>
+  <testcase name="verifyHeaders" classname="testCases.EstimateSizeCost_TC" time="107.754"/>
+  <testcase name="verifyHeaders" classname="testCases.EstimateSizeCost_TC" time="101.932"/>
+  <testcase name="verifyHeaders" classname="testCases.EstimateSizeCost_TC" time="101.578"/>
+  <testcase name="verifyHeaders" classname="testCases.EstimateSizeCost_TC" time="101.47"/>
+</testsuite>

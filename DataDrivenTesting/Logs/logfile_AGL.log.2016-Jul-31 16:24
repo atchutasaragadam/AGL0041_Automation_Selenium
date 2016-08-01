@@ -1,0 +1,24 @@
+2016-Jul-31 16:24:01,963 | 
+ | INFO  | navigated to http://agl0041.agl.chdigital.com.au/
+2016-Jul-31 16:24:01,983 | 
+ | ERROR | Error in Class : SuperClass || Method : browserExecute
+2016-Jul-31 16:24:01,984 | 
+ | INFO  | **********************************************************************************
+2016-Jul-31 16:24:01,984 | 
+ | INFO  | **********************************************************************************
+2016-Jul-31 16:24:01,984 | 
+ | INFO  | $$$$$$$$$$$            verifyHeaders          $$$$$$$$$$$$$
+2016-Jul-31 16:24:01,984 | 
+ | INFO  | **********************************************************************************
+2016-Jul-31 16:24:01,984 | 
+ | INFO  | **********************************************************************************
+2016-Jul-31 16:24:17,008 | 
+ | INFO  | Header element < Understanding solar > is present 
+2016-Jul-31 16:24:27,029 | 
+ | INFO  | Header element < Switching to solar > is present 
+2016-Jul-31 16:24:37,054 | 
+ | INFO  | Header element < Solar with AGL > is present 
+2016-Jul-31 16:24:47,079 | 
+ | INFO  | Header element < Solar monitoring > is present 
+2016-Jul-31 16:24:57,103 | 
+ | INFO  | Header element < 1300 377 118 > is present 

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AGL_Suite" parallel="false">
+
+<test name="mac os EI CapitanFirefoxTest">
+		<parameter name="browser" value="mac os EI Capitan-firefox" />
+
+		<classes>
+			<class name="testCases.EstimateSizeCost_TC">
+				<methods>
+					<include name="verifyAGLLogo" />
+					<include name="verifyLinks" />
+					<include name="verifyAGLPreHeaders" />
+					<include name="verifyHeaders" />
+					<include name="verifyEstimateSizeCost" />
+					<include name="verifySideNavigation" />
+					<include name="verifyGlobalFooters" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- mac os EI Capitan-firefox Test -->
+	
+	<test name="mac os EI Capitan ChromeTest">
+		<parameter name="browser" value="mac os EI Capitan-chrome" />
+
+		<classes>
+			<class name="testCases.EstimateSizeCost_TC">
+				<methods>
+					<include name="verifyAGLLogo" />
+					<include name="verifyLinks" />
+					<include name="verifyAGLPreHeaders" />
+					<include name="verifyHeaders" />
+					<include name="verifyEstimateSizeCost" />
+					<include name="verifySideNavigation" />
+					<include name="verifyGlobalFooters" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- mac os EI Capitan-chrome Test -->
+	
+		<test name="mac os EI Capitan SafariTest">
+		<parameter name="browser" value="mac os EI Capitan-safari" />
+
+		<classes>
+			<class name="testCases.EstimateSizeCost_TC">
+				<methods>
+					<include name="verifyAGLLogo" />
+					<include name="verifyLinks" />
+					<include name="verifyAGLPreHeaders" />
+					<include name="verifyHeaders" />
+					<include name="verifyEstimateSizeCost" />
+					<include name="verifySideNavigation" />
+					<include name="verifyGlobalFooters" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- mac os EI Capitan-safari Test -->
+
+	<test name="Windows 10 firefox">
+		<parameter name="browser" value="win10-firefox" />
+
+		<classes>
+			<class name="testCases.EstimateSizeCost_TC">
+				<methods>
+					<include name="verifyAGLLogo" />
+					<include name="verifyLinks" />
+					<include name="verifyAGLPreHeaders" />
+					<include name="verifyHeaders" />
+					<include name="verifyEstimateSizeCost" />
+					<include name="verifySideNavigation" />
+					<include name="verifyGlobalFooters" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Win Firefox Test -->
+	<test name="Windows 10 ChromeTest">
+		<parameter name="browser" value="win10-chrome" />
+
+		<classes>
+			<class name="testCases.EstimateSizeCost_TC">
+				<methods>
+					<include name="verifyAGLLogo" />
+					<include name="verifyLinks" />
+					<include name="verifyAGLPreHeaders" />
+					<include name="verifyHeaders" />
+					<include name="verifyEstimateSizeCost" />
+					<include name="verifySideNavigation" />
+					<include name="verifyGlobalFooters" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!--Win Chrome Test -->
+	<test name="Windows 10 IE Test">
+		<parameter name="browser" value="win10-ie" />
+
+		<classes>
+			<class name="testCases.EstimateSizeCost_TC">
+				<methods>
+					<include name="verifyAGLLogo" />
+					<include name="verifyLinks" />
+					<include name="verifyAGLPreHeaders" />
+					<include name="verifyHeaders" />
+					<include name="verifyEstimateSizeCost" />
+					<include name="verifySideNavigation" />
+					<include name="verifyGlobalFooters" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Win IE Test -->
+
+
+</suite> <!-- Suite -->

@@ -1,0 +1,30 @@
+2016-Jul-31 23:05:13,074 | 
+ | INFO  | XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2016-Jul-31 23:05:13,075 | 
+ | INFO  | X
+2016-Jul-31 23:05:13,075 | 
+ | INFO  | X
+2016-Jul-31 23:05:13,075 | 
+ | INFO  | X
+2016-Jul-31 23:05:13,075 | 
+ | INFO  | X
+2016-Jul-31 23:05:24,170 | 
+ | INFO  | New safari driver instantiated
+2016-Jul-31 23:05:29,506 | 
+ | INFO  | navigated to http://agl0041.agl.chdigital.com.au/
+2016-Jul-31 23:05:29,553 | 
+ | ERROR | Error in Class : SuperClass || Method : browserExecute
+2016-Jul-31 23:05:29,555 | 
+ | INFO  | **********************************************************************************
+2016-Jul-31 23:05:29,555 | 
+ | INFO  | **********************************************************************************
+2016-Jul-31 23:05:29,555 | 
+ | INFO  | $$$$$$$$$$$            verifyHeaders          $$$$$$$$$$$$$
+2016-Jul-31 23:05:29,555 | 
+ | INFO  | **********************************************************************************
+2016-Jul-31 23:05:29,555 | 
+ | INFO  | **********************************************************************************
+2016-Jul-31 23:05:44,583 | 
+ | INFO  | Header element < Understanding solar > is present 
+2016-Jul-31 23:05:54,610 | 
+ | INFO  | Header element < Switching to solar > is present 

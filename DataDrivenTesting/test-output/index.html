@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-AGL_Suite">
+              <span class="suite-name border-passed">AGL_Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-AGL_Suite">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-AGL_Suite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-AGL_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-AGL_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-AGL_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-AGL_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-AGL_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AGL_Suite" class="hide-methods passed suite-AGL_Suite"> (hide)</a> <!-- hide-methods passed suite-AGL_Suite -->
+                      <a href="#" panel-name="suite-AGL_Suite" class="show-methods passed suite-AGL_Suite"> (show)</a> <!-- show-methods passed suite-AGL_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-AGL_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AGL_Suite" title="testCases.EstimateSizeCost_TC" hash-for-method="verifyHeaders(public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.E...)">verifyHeaders(public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.E...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AGL_Suite" title="testCases.EstimateSizeCost_TC" hash-for-method="verifyHeaders(public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.E...)">verifyHeaders(public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.E...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AGL_Suite" title="testCases.EstimateSizeCost_TC" hash-for-method="verifyHeaders(public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.E...)">verifyHeaders(public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.E...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AGL_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AGL_Suite" class="panel AGL_Suite">
+          <div class="suite-AGL_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.EstimateSizeCost_TC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHeaders(public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.E...)">
+                  </a> <!-- verifyHeaders(public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.E...) -->
+                  <span class="method-name">verifyHeaders</span>
+                  <span class="parameters">(public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <em>
+(Verify Headers)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHeaders(public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.E...)">
+                  </a> <!-- verifyHeaders(public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.E...) -->
+                  <span class="method-name">verifyHeaders</span>
+                  <span class="parameters">(public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <em>
+(Verify Headers)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHeaders(public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.E...)">
+                  </a> <!-- verifyHeaders(public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.E...) -->
+                  <span class="method-name">verifyHeaders</span>
+                  <span class="parameters">(public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.Exception)</span>
+                  <em>
+(Verify Headers)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AGL_Suite-class-passed -->
+        </div> <!-- panel AGL_Suite -->
+        <div panel-name="test-xml-AGL_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Volumes/Users/cheaus/Documents/workspace/DataDrivenTesting/DataDrivenTesting/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;AGL_Suite&quot;&gt;
+  &lt;test name=&quot;Windows 10 FirefoxTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;win10-firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.EstimateSizeCost_TC&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyAGLLogo&quot;/&gt;
+          &lt;include name=&quot;verifyLinks&quot;/&gt;
+          &lt;include name=&quot;verifyAGLPreHeaders&quot;/&gt;
+          &lt;include name=&quot;verifyHeaders&quot;/&gt;
+          &lt;include name=&quot;verifyEstimateSizeCost&quot;/&gt;
+          &lt;include name=&quot;verifySideNavigation&quot;/&gt;
+          &lt;include name=&quot;verifyGlobalFooters&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCases.EstimateSizeCost_TC --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Windows 10 FirefoxTest --&gt;
+  &lt;test name=&quot;Windows 10 ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;win10-chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.EstimateSizeCost_TC&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyAGLLogo&quot;/&gt;
+          &lt;include name=&quot;verifyLinks&quot;/&gt;
+          &lt;include name=&quot;verifyAGLPreHeaders&quot;/&gt;
+          &lt;include name=&quot;verifyHeaders&quot;/&gt;
+          &lt;include name=&quot;verifyEstimateSizeCost&quot;/&gt;
+          &lt;include name=&quot;verifySideNavigation&quot;/&gt;
+          &lt;include name=&quot;verifyGlobalFooters&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCases.EstimateSizeCost_TC --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Windows 10 ChromeTest --&gt;
+  &lt;test name=&quot;Windows 10 IE Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;win10-ie&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.EstimateSizeCost_TC&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyAGLLogo&quot;/&gt;
+          &lt;include name=&quot;verifyLinks&quot;/&gt;
+          &lt;include name=&quot;verifyAGLPreHeaders&quot;/&gt;
+          &lt;include name=&quot;verifyHeaders&quot;/&gt;
+          &lt;include name=&quot;verifyEstimateSizeCost&quot;/&gt;
+          &lt;include name=&quot;verifySideNavigation&quot;/&gt;
+          &lt;include name=&quot;verifyGlobalFooters&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testCases.EstimateSizeCost_TC --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Windows 10 IE Test --&gt;
+&lt;/suite&gt; &lt;!-- AGL_Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AGL_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AGL_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Windows 10 FirefoxTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Windows 10 ChromeTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Windows 10 IE Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AGL_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AGL_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AGL_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AGL_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AGL_Suite');
+function tableData_AGL_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyHeaders')
+data.setCell(0, 2, 'testCases.EstimateSizeCost_TC')
+data.setCell(0, 3, 140201);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyHeaders')
+data.setCell(1, 2, 'testCases.EstimateSizeCost_TC')
+data.setCell(1, 3, 119100);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyHeaders')
+data.setCell(2, 2, 'testCases.EstimateSizeCost_TC')
+data.setCell(2, 3, 114130);
+window.suiteTableData['AGL_Suite']= { tableData: data, tableDiv: 'times-div-AGL_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-AGL_Suite">
+              </div> <!-- times-div-AGL_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AGL_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AGL_Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AGL_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">21 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testCases.EstimateSizeCost_TC</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyRecommendedArticles</span>
+                <br/>
+                <span class="ignored-method-name">verifyRecommendedArticles</span>
+                <br/>
+                <span class="ignored-method-name">verifyRecommendedArticles</span>
+                <br/>
+                <span class="ignored-method-name">verifyLinks</span>
+                <br/>
+                <span class="ignored-method-name">verifyLinks</span>
+                <br/>
+                <span class="ignored-method-name">verifyLinks</span>
+                <br/>
+                <span class="ignored-method-name">verifyAGLLogo</span>
+                <br/>
+                <span class="ignored-method-name">verifyAGLLogo</span>
+                <br/>
+                <span class="ignored-method-name">verifyAGLLogo</span>
+                <br/>
+                <span class="ignored-method-name">verifyGlobalFooters</span>
+                <br/>
+                <span class="ignored-method-name">verifyGlobalFooters</span>
+                <br/>
+                <span class="ignored-method-name">verifyGlobalFooters</span>
+                <br/>
+                <span class="ignored-method-name">verifyAGLPreHeaders</span>
+                <br/>
+                <span class="ignored-method-name">verifyAGLPreHeaders</span>
+                <br/>
+                <span class="ignored-method-name">verifyAGLPreHeaders</span>
+                <br/>
+                <span class="ignored-method-name">verifyEstimateSizeCost</span>
+                <br/>
+                <span class="ignored-method-name">verifyEstimateSizeCost</span>
+                <br/>
+                <span class="ignored-method-name">verifyEstimateSizeCost</span>
+                <br/>
+                <span class="ignored-method-name">verifySideNavigation</span>
+                <br/>
+                <span class="ignored-method-name">verifySideNavigation</span>
+                <br/>
+                <span class="ignored-method-name">verifySideNavigation</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AGL_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.EstimateSizeCost_TC</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">browserExecute(win10-firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyHeaders(public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.E...)</span>
+                <span class="method-start">45687 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">164790 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">browserExecute(win10-chrome)</span>
+                <span class="method-start">181557 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyHeaders(public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.E...)</span>
+                <span class="method-start">323867 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">464069 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">browserExecute(win10-ie)</span>
+                <span class="method-start">481099 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifyHeaders(public void testCases.EstimateSizeCost_TC.verifyHeaders(java.lang.reflect.Method) throws java.lang.E...)</span>
+                <span class="method-start">520165 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">634296 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
